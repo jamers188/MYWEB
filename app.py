@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_page_config(page_title="NICO_BLOG", page_icon=":wave:", layout="wide")
@@ -26,9 +27,8 @@ st.header("I'm a 2nd Year College Student in BSCPE Course")
 st.write("I'm learning how to code and program, since this is the field that I'm best at")
 st.write("Message me on Gmail [Click here >](https://www.gmail.com/rdelacruz4@ssct.edu.ph)")
 
-# Display the "Me.jpg" image from GitHub directly
-img_url = "https://raw.githubusercontent.com/Shenheart/MYWEB/main/Me.jpg"
-st.image(img_url, width=600, channels="RGB")
+img = Image.open("Me.jpg")
+st.image(img, width=600, channels="RGB")
 
 st.write("---")
 st.header("Some information About me:")
