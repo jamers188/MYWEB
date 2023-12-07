@@ -54,4 +54,4 @@ st.write(
     """
 )
 
-st.image("https://raw.githubusercontent.com/YourGitHubUsername/YourRepositoryName/main/path/to/your/background_image.jpg", use_column_width=True)
+background_image_url = "https://raw.githubusercontent.com/Shenheart/MYWEB/blob/main/PIC.jpg"
