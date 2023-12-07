@@ -5,7 +5,7 @@ from PIL import Image
 st.set_page_config(page_title="NICO_BLOG", page_icon=":wave:", layout="wide")
 
 # Define your background image URL from GitHub repository (use the direct link to the raw image file)
-background_image_url = "https://raw.githubusercontent.com/Shenheart/MYWEB/blob/main/PIC.jpg"
+background_image_url = "https://raw.githubusercontent.com/Shenheart/MYWEB/main/PIC.jpg"
 
 # Apply the background image using custom CSS
 background_style = f"""
@@ -27,7 +27,9 @@ st.header("I'm a 2nd Year College Student in BSCPE Course")
 st.write("I'm learning how to code and program, since this is the field that I'm best at")
 st.write("Message me on Gmail [Click here >](https://www.gmail.com/rdelacruz4@ssct.edu.ph)")
 
-img = Image.open("Me.jpg")
+# Display the "Me.jpg" image from GitHub
+img_url = "https://raw.githubusercontent.com/Shenheart/MYWEB/main/Me.jpg"
+img = Image.open(img_url)
 st.image(img, width=600, channels="RGB")
 
 st.write("---")
