@@ -25,7 +25,7 @@ st.markdown(background_style, unsafe_allow_html=True)
 st.title("Hi, I'm Shen Heart Glico and Welcome To my Blog :wave:, \n where you'll learn more about me")
 st.header("I'm a 1st Year College Student in BSCPE Course")
 st.write("I'm learning how to code and program")
-st.write("Message me on Facebook [Click here >]("https://www.facebook.com/sikuansecret.07")
+st.write("Message me on Facebook [Click here >](https://www.facebook.com/sikuansecret.07")
 
 img = Image.open("Me.jpg")
 st.image(img, width=600, channels="RGB")
