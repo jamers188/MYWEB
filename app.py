@@ -43,7 +43,8 @@ st.write(
     - In my pursuit of knowledge, I intend to immerse myself in various programming languages such as Python, Java, and C++, unraveling their unique syntax and functionalities. 
     - Beyond the syntax, I am eager to comprehend the underlying principles that govern the creation of software solutions. Through hands-on projects and practical applications, I aim to hone my coding skills, fostering a mastery that extends beyond theoretical knowledge.
     - Furthermore, my curiosity extends to the broader landscape of computers. I am intrigued by the intricate interplay of hardware and software, and I am determined to explore the symbiotic relationship between the two. 
-    - From the fundamentals of computer architecture to the intricacies of operating systems, my quest for knowledge encompasses the holistic understanding of computers. In essence, my journey in programming and coding is not merely about acquiring skills but about cultivating a profound appreciation for the art and science of computational thinking. With each line of code written and every algorithm deciphered, I am poised to unravel the vast tapestry that is the world of programming and computers.
+    - From the fundamentals of computer architecture to the intricacies of operating systems, my quest for knowledge encompasses the holistic understanding of computers. In essence, my journey in programming and coding is not merely about acquiring skills but about cultivating a profound appreciation for the art and science of computational thinking. 
+    - With each line of code written and every algorithm deciphered, I am poised to unravel the vast tapestry that is the world of programming and computers.
     """
 )
 
