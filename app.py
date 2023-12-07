@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
-st.set_page_config(page_title="SHEN_HEARTS_BLOG", page_icon=":heart:", layout="wide")
+st.set_page_config(page_title="SHENHEARTS_BLOG", page_icon=":heart:", layout="wide")
 
 # Define your background image URL from GitHub repository (use the direct link to the raw image file)
 background_image_url = "https://raw.githubusercontent.com/Shenheart/MYWEB/main/PIC.jpg"
@@ -28,7 +28,7 @@ st.image(img, width=600, channels="RGB")
 
 st.title("Hi, I'm Shen Heart Glico and Welcome To my Blog :wave:, \n where you'll learn more about me")
 st.header("I'm a 1st Year College Student in BSCPE Course")
-st.write("I'm learning how to code and program")
+st.write("I choose this course because it's all about Computer, which is related in my strand when I was in Grade 12 ICT")
 st.write("Message me on Facebook [Click here >](https://www.facebook.com/sikuansecret.07")
 
 st.write("---")
@@ -36,6 +36,7 @@ st.header("About me:")
 st.write("##")
 st.write(
     """
+    - Actually I love programming when I was in my senior high I always have this dreams/goals that I want to be a programmer someday.
     - I have a fervent desire to embark on a journey of continuous learning, particularly in the realm of programming and coding. The allure of these disciplines captivates me, and I am resolute in my commitment to unravel their complexities. 
     - As I set forth on this educational odyssey, my primary objective is to cultivate a profound understanding of programming languages and coding practices.
     - The multifaceted world of programming beckons me with its promise of limitless possibilities. 
